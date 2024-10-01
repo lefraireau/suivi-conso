@@ -1,0 +1,103 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.logo {
+    width: 150px;
+    display: block;
+    margin: 0 auto 20px;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+button {
+    display: block;
+    width: 100%;
+    background-color: #0070f3;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #005bb5;
+}
+
+.reset-btn {
+    background-color: #28a745;
+}
+
+.reset-btn:hover {
+    background-color: #218838;
+}
+
+.clear-btn {
+    background-color: #dc3545;
+}
+
+.clear-btn:hover {
+    background-color: #c82333;
+}
+
+#results, #reportResults, #monthlyCostResults {
+    margin-top: 20px;
+    background-color: #e9ecef;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+#history {
+    margin-top: 30px;
+}
+
+#historyList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#historyList li {
+    background-color: #f8f9fa;
+    padding: 10px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#chartContainer {
+    margin-top: 30px;
+}
+
+#reportSection, #monthlyCostSection {
+    margin-top: 30px;
+}
